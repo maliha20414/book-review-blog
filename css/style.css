@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.card-box
+{
+    background-color:#B2BDB7;
+     width: 730px;
+     height: 513px;
+     box-shadow: 10px 10px 8px 10px #dee2e6;
+      border-radius: 25px;
+      padding: 10px 15px 10px 15px;
+      margin:10% 5% 5% 45%;
+     
+     text-align: center;
+}
+
+.card-box img{
+    
+     width: 30%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.card-box h6{
+    font-size: 30px; 
+    text-align: center;
+}
+
+.review-box h6{
+    font-size: 30px; 
+    text-align: center;
+}
+
+.Go-Back
+{ padding: 50px 50px 50px 50px;
+    text-align: center;
+}
+.Book-View img
+{
+   margin: 20px 20px 20px 100px;
+ 
+  box-shadow: 5px 5px 10px #d1b2b2;
+  transition: transform .2s;
+  
+  object-fit: cover;
+  object-position: bottom;
+  width: 10%;
+  height: max-content;
+  }
+  
+  
+  .Book-View img:hover {
+    transform: scale(1.2);
+  }
+
+  .Blog-View:hover
+  {
+      transition: scale(1.2);
+  }
+
+ .Box
+ {
+    
+    
+ 
+     box-shadow: 5px 5px 8px 5px #dee2e6;
+      
+   
+     display: flex;
+     text-align: center;
+     background-image: linear-gradient(to bottom right, #dee2e6,white);
+     margin: 25px 50px 50px 150px;
+    
+     
+
+ }
+ .Review-Box
+ {
+    box-shadow: 5px 5px 8px 5px #dee2e6;
+      
+   
+   
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #dee2e6,white);
+    margin: 50px 20px 20px 20px;
+    padding: 5px 5px 10px 5px;
+ }
+
+ .Go-Back a
+ {
+     text-decoration: none;
+     color: orangered;
+ }
+ .Go-Back a:hover
+ {
+     color : red;
+ }
+.star
+{
+  
+     display: flex;
+     align-items: center;justify-content: center;
+
+}
+
+.star .star-widget input
+{
+    display: none;
+}
+.star-widget label{
+    color: gray;
+    transform: all 0.2s ease;
+    float: right;
+    font-size: 20px;
+}
+input:not(:checked)~label:hover,
+input:not(:checked)~label:hover~label{
+    color: #fd4;
+}
+input:checked~label{
+    color: #fd4;
+}
+ .Review-Box a
+ {
+     text-decoration: none;
+     color: orangered;
+ }
+ .Review-Box a:hover
+ {
+     color : red;
+ }
+ .Me_Box
+ {
+    box-shadow: 5px 5px 8px 5px #dee2e6;
+    text-align: center;
+    margin: 25px 50px 50px 150px;
+    background-color: #fed8b1;
+ }
+ .Me_Box img
+ {  
+    width: 500px;
+    height: 300px;
+    border-radius: 50%
+ }
+
+ .row1
+ {
+     box-sizing: border-box;
+   
+ }
+ .row1 p
+ {
+    padding: 40px 5px 5px 5px;
+ }
+ .row1 h6
+ {
+     font-size: 30px;
+ }
+
+ .genre ul{
+    
+     display: flex;
+     list-style: none;
+   
+     align-items: center;
+     justify-content: center;
+ }
+ .genre ul li{
+
+    line-height: 40px;
+    margin: 0 5px;
+   
+     }
+.genre a
+{
+    text-decoration: none;
+    color: orangered;
+}
+.genre a:hover
+{
+    color : red;
+}
+.Review-Box i
+{
+    color: orange;
+}
+.container1
+{
+    margin: 5px 20px;
+    padding: 0 20px;
+}
+.all
+{
+    display: flex;
+}
+.c1 {
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px #d1b2b2;
+    transition: transform .2s;
+    opacity: 0.7;
+    
+}
+.c1:hover {
+   opacity: 1;
+  }
+
+.left_arrow
+{
+    position:absolute;
+    top: 40%;
+    left: -6px;
+}
+.right_arrow
+{
+    position:absolute;
+    top: 40%;
+    right: -2px;
+}
+.gallery
+{ padding-left: 150px;
+    padding-top: 10px;
+}
+     /* Style the Image Used to Trigger the Modal */
+.gallery img{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 20%;
+    height: max-content;
+  }
+  
+  .gallery img:hover {opacity: 0.7;}
+  
+
+ @media only screen and (max-width: 787px) {
+    .Box
+    {
+        display: inline;
+        box-shadow: none;
+        
+   }
+   .row1
+   {
+    background-image: linear-gradient(to bottom right, #dee2e6,white);
+    margin: 20px 0 20px 0;
+     
+
+    }
+   .Box img 
+   {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   }
+   .Me_Box
+   {
+    margin: 20px 0 20px 0;
+    box-shadow: none;
+    background-image: linear-gradient(to bottom right, #dee2e6,white);
+   }
+ .genre ul{
+   display: inline-block;
+
+
+
+  }
+
+
+  card-img-top :hover
+  {
+      opacity: 1;
+  }
+  
+}
